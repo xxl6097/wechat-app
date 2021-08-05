@@ -14,9 +14,10 @@ Welcome<br/>
 <script type="text/javascript">
     var websocket = null;
 
-    //判断当前浏览器是否支持WebSocket
+    //判断当前浏览器是否支持WebSocket ws://wechat-ws-1142280-1259649570.ap-shanghai.run.tcloudbase.com/websocket/test/123
     if('WebSocket' in window){
-        websocket = new WebSocket("ws://localhost:8080/websocket/test/123");
+        //websocket = new WebSocket("ws://localhost:8080/websocket/test/123");
+        websocket = new WebSocket("ws://wechat-ws-1142280-1259649570.ap-shanghai.run.tcloudbase.com/websocket/test/zzzzzzzzz");
     }
     else{
         alert('Not support websocket')
